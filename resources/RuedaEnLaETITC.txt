@@ -1,0 +1,48 @@
+#Rueda en la ETITC Es la propuesta de iniciativa de la ETITC para facilitar el transporte de sus estudiantes entre sus diferentes sedes, promoviendo hábitos saludables de ejercicio, mitigando el impacto ambiental, tener alternativas a la movilidad entre sus sedes, acceder a los servicios que ofrecen las diferentes sedes de la universidad, entre otros.
+
+Como factor a considerar es que en la actualidad la ETITC se encuentra en el proceso de dotación de las sedes en la localidad de Kennedy (Carvajal y Tintal) lo que busca esta iniciativa es lograr que sus estudiantes tengan acceso a laboratorios, biblioteca y otros servicios de la ETITC que en sus respectivas sedes estén en proceso de dotación o carezca de los recursos requeridos. 
+
+Se propone un sistema de gestión de bicicletas que cuente con un dispositivo de parqueo con bloqueo/desbloqueo mediante lectura de un código QR de generación temporal, asignación por documento de identidad comprobando que sea un miembro institucional o un mecanismo similar. La propuesta de iniciativa consiste en la disposición de una flota de bicicletas compartidas para que los estudiantes puedan utilizarlas sin ningún costo para visitar las diferentes sedes de la ETITC en las localidades de los Martires y Kennedy y el sistema a desarrollar e implementar deberá cumplir con los siguientes requisitos:
+
+1. Gestión de estudiantes inscritos en la iniciativa. 
+	a) Inscripción de los estudiantes interesados
+	b) Corregir deuda de los estudiantes
+	c) Pagar sancion por parte del estudiante
+	d) Notificación al correo institucional de sanciones generadas por el incumplimiento en las políticas de uso o el pago de dueda con el sistema (limitación al préstamo de bicicletas).
+		
+2. Gestión de la flota de bicicletas.
+	a) Asignación de bicicletas segun criterios como disponibilidad, parquederos disponibles en la sede destino, sanciones del estudiante.
+	b) Verificación del estado de la bicicleta al momento de su entrega.
+
+3. Parquederos
+	a) Actualizacion de la disponibilidad de parquederos y de bicicletas en cada sede.
+	b) Verificación de bicicleta por codigo QR por parte de la seguridad de la ETITC en cada sede.
+
+-. Usuarios de administración.
+	Este rol desempeñará funciones de :
+	a) Corrección de errores como mala asignación de deuda, 
+	b) Correcciones en el registro 
+	*) Eliminación de estudiantes de ser requerido.
+
+-. Generar informes (no tengo claro que informes sean pertinentes pero la funcionalidad estará incluida)
+	a) Poder generar informes como total de viajes, total de distancia, número de estudiantes inscritos, tiempo de trayecto, frecuencia de uso, distancia estimada, viajes realizados, con filtrados por lapsos de tiempo, etc.
+
+Sujetos - Clases
+
+	Estudiante
+	Bicicleta
+	Parqueadero
+	Dispositivo de parqueo
+	Administrador
+
+Verbos - Métodos
+	Inscribir estudiantes
+	Corregir deuda de los estudiantes
+	Pagar sancion por parte del estudiante
+	Verificar deudas estudiante
+	Notificar al estudiante
+	Asignar bicicleta al estudiante
+	Verificar estado bicicleta
+	Generar codigos QR de préstamo
+	Corregir errores de Inscripción
+	Corregir errores en la asignacion de multas

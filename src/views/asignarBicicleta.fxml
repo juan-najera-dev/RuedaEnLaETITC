@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.estudiante.AsignarBicicleta">
+   <children>
+      <ChoiceBox fx:id="cbxSedeOrigen" layoutX="217.0" layoutY="29.0" prefHeight="25.0" prefWidth="166.0" value="CENTRO" />
+      <Label layoutX="19.0" layoutY="33.0" prefHeight="17.0" prefWidth="166.0" text="Seleccione la sede de origen" />
+      <Label layoutX="19.0" layoutY="72.0" prefHeight="17.0" prefWidth="166.0" text="Seleccione la sede de destino" />
+      <ChoiceBox fx:id="cbxSedeDestino" layoutX="217.0" layoutY="68.0" prefHeight="25.0" prefWidth="166.0" value="CARVAJAL" />
+      <Button layoutX="163.0" layoutY="115.0" mnemonicParsing="false" onAction="#Asignar" text="Asignar Bicicleta" />
+   </children>
+</AnchorPane>

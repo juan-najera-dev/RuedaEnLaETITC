@@ -1,0 +1,26 @@
+Entregar Bicicleta -> Modificar parqueadero sede para que sea una funcion void entregarBicicleta(estudiante) o algo asi
+Recibir Bicicleta -> cada componente debe tener su actualizar estado definirlo en la interface?
+asignar Bicicleta VISTA -> agregar boton volver
+Paneles -> Definir los botones si y no
+
+ToDo
+Implementar
+Definir sanciones/restricciones
+Componente Sancion/restriccion
+Lectura del QR por dispositivo
+Encriptar los datos del QR
+
+Estudiante
+Visualizacion de Sanciones/Restricciones
+Eliminar QR despues de usado
+
+Admin
+Gestion de Sanciones/Restricciones
+
+Seguridad
+Entregar Bicicletas que se hayan reservado en la ventana de tiempo
+Cuando se entrega una bicicleta con falla disparar el componente de asignacion de sancion/restriccion
+
+Persistencia
+Tabla de Sanciones/Restricciones
+Creacion de Roles

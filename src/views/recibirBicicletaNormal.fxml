@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.seguridad.RecibirBicicletaNormal">
+   <children>
+      <Label layoutX="25.0" layoutY="34.0" prefHeight="17.0" prefWidth="131.0" text="Estado de la bicicleta" />
+      <Label layoutX="25.0" layoutY="51.0" prefHeight="17.0" prefWidth="359.0" text="Desmarque los elementos que NO se encuentran en buen estado" />
+      <CheckBox fx:id="chkFrenoDelantero" layoutX="36.0" layoutY="83.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Freno Delantero" />
+      <CheckBox fx:id="chkFrenoTrasero" layoutX="36.0" layoutY="109.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Freno Trasero" />
+      <CheckBox fx:id="chkMarco" layoutX="36.0" layoutY="136.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Marco" />
+      <CheckBox fx:id="chkPedalDerecho" layoutX="36.0" layoutY="164.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Pedal Derecho" />
+      <CheckBox fx:id="chkPedalIzquierdo" layoutX="36.0" layoutY="191.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Pedal Izquierdo" />
+      <CheckBox fx:id="chkManubrio" layoutX="220.0" layoutY="83.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Manubrio" />
+      <CheckBox fx:id="chkRuedaDelantera" layoutX="220.0" layoutY="109.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Rueda Delantera" />
+      <CheckBox fx:id="chkRuedaTrasera" layoutX="220.0" layoutY="135.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Rueda Trasera" />
+      <CheckBox fx:id="chkSillin" layoutX="220.0" layoutY="164.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Sillin" />
+      <CheckBox fx:id="chkSistemaMotor" layoutX="220.0" layoutY="191.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" selected="true" text="Sistema Motor" />
+      <Button layoutX="70.0" layoutY="230.0" mnemonicParsing="false" onAction="#volver" prefHeight="25.0" prefWidth="63.0" text="Volver" />
+      <Button layoutX="248.0" layoutY="230.0" mnemonicParsing="false" onAction="#guardar" prefHeight="25.0" prefWidth="63.0" text="Guardar" />
+   </children>
+</AnchorPane>
