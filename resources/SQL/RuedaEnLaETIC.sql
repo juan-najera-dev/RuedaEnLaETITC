@@ -104,4 +104,3 @@ INSERT INTO `BicicletaNormal` (NumeroInventario, Serial, Tipo, Estado, Sede, tip
 INSERT INTO `BicicletaNormal` (NumeroInventario, Serial, Tipo, Estado, Sede, tipoFreno, estadoFreno1, estadoFreno2, materialManubrio, estadoManubrio, materialMarco, tamanoMarco, estadoMarco, materialPedal, estadoPedal1, estadoPedal2, anchoLlanta, diametroRin, numRadios, estadoRueda1, estadoRueda2, estadoSillin, tipoMotor, estadoMotor) VALUES (10, 10245, 'NORMAL','FUNCIONAL','CENTRO','ARO','FUNCIONAL','FUNCIONAL','ALUMINIO','FUNCIONAL','ALUMINIO',50,'FUNCIONAL','PLASTICO','FUNCIONAL','FUNCIONAL',2,23,32,'FUNCIONAL','FUNCIONAL','FUNCIONAL','TRACCIONHUMANA','FUNCIONAL');
 
 USE RuedaEnLaETITC;
-DELETE FROM Estudiantes WHERE id = 1020730942;
