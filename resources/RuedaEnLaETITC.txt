@@ -24,7 +24,7 @@ Se propone un sistema de gestión de bicicletas que cuente con un dispositivo de
 	b) Correcciones en el registro 
 	*) Eliminación de estudiantes de ser requerido.
 
--. Generar informes (no tengo claro que informes sean pertinentes pero la funcionalidad estará incluida)
+-. Generar informes
 	a) Poder generar informes como total de viajes, total de distancia, número de estudiantes inscritos, tiempo de trayecto, frecuencia de uso, distancia estimada, viajes realizados, con filtrados por lapsos de tiempo, etc.
 
 Sujetos - Clases
